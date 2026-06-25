@@ -52,7 +52,8 @@
       entries.forEach(function (e) {
         if (e.isIntersecting) {
           var target = parseInt(e.target.getAttribute('data-target'), 10);
-          animateCounter(e.target, target, 1400);
+          var duration = parseInt(e.target.getAttribute('data-duration') || '1400', 10);
+          animateCounter(e.target, target, duration);
           statObs.unobserve(e.target);
         }
       });
