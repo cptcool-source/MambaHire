@@ -217,12 +217,12 @@ section { padding: clamp(72px,9vh,112px) 0; }
 .pricing-card:hover { box-shadow: 0 4px 32px rgba(28,43,74,0.08); z-index: 1; }
 .pricing-card--featured { border-top: 3px solid var(--navy); }
 .plan-badge {
-  display: inline-block; padding: 4px 12px;
+  position: absolute; top: 16px; left: 32px;
+  padding: 4px 12px;
   background: var(--navy); color: #fff;
   font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
-  margin-bottom: 20px; align-self: flex-start;
 }
-.plan-badge--hidden { visibility: hidden; }
+.pricing-card--featured { padding-top: 60px; }
 .plan-name {
   font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700;
   color: var(--navy); margin-bottom: 8px;
