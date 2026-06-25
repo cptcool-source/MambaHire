@@ -222,6 +222,7 @@ section { padding: clamp(72px,9vh,112px) 0; }
   font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
   margin-bottom: 20px; align-self: flex-start;
 }
+.plan-badge--hidden { visibility: hidden; }
 .plan-name {
   font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700;
   color: var(--navy); margin-bottom: 8px;
